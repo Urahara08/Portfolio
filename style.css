@@ -221,6 +221,14 @@ section{
 
 /* Projects Section Styles */
 
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh; /* Make the section take the full viewport height */
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -359,4 +367,12 @@ section{
     font-size: 1rem;
 }
   
+/* studies */
 
+.studies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh; 
+}
